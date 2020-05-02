@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    project loading...
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project.</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: IBM plex mono;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: black;
+        font-weight: bold;
+      }
+      a:where {
+        text-decoration: underline;
+        color: black;
+        font-weight: bold;
+      }
+      #gnb {
+        width: 85%;
+        height: 96px;
+        border: 1px solid;
+        margin: 0 auto;
+        font-size: 1em;
+      }
+      #gnb .gnb-container {
+        float: left;
+        border: 1px solid;
+      }
+      #gnb ul {
+        list-style: none;
+      }
+      #gnb ul li {
+        float: left;
+        margin-right: 40px;
+        border: 1px solid;
+        line-height: 92px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="gnb">
+      <ul class="gnb-container">
+        <li><a href="https://mskimsj.github.io/soojin">Home</a></li>
+        <li><a href="https://mskimsj.github.io/soojin/project">Project</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </body>
 </html>
