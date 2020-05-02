@@ -39,6 +39,27 @@
           font-weight: bold;
           text-decoration: underline;
         }
+        #profile {
+            width: 85%; height: 320px; margin: 0 auto;
+        }
+        #profile .profile-container {width: 30%; position: relative; top: 27%; left:0px;}
+        #profile .image {width: 64px; height: 64px;background: url(profile.png); background-size: 102%; border-radius: 50%;}
+        #profile .name {font-size: 18px; font-weight: 600; margin-top: 24px;}
+        #profile .job {font-size: 12px; color: rgba(0, 0, 0, 0.5); margin-top: 2px;}
+        #resume {width: 85%; margin: 0 auto;}
+        #resume .resume-container {width: 100%; margin: 0 auto; float: left;}
+        #resume .learn-container {width: 200px;float: left; margin-right: 17px;}
+        #resume .title {width: 28%; margin: 24px 0px; color: rgba(0, 0, 0, 0.5);}
+        #resume .term {font-size: 12px; color: rgba(0, 0, 0, 0.5); margin-top: 4px; margin-bottom: 24px;}
+        #resume .learn-1 .univ {font-weight: bold; font-size: 14px; line-height: 20px;}
+        #resume .learn-2 .fast {font-weight: bold; font-size: 14px; line-height: 20px;}
+        #resume .learn-3 .kosta {font-weight: bold; font-size: 14px; line-height: 20px;}
+        #resume .work-container {width: 200px; height: 320px; float: left; margin-right: 17px; }
+        #resume .work-1 .whatshoe{font-weight: bold; font-size: 14px; line-height: 20px;}
+        #resume .work-2 .coinone{font-weight: bold; font-size: 14px; line-height: 20px; }
+        #resume .work-2 .mark {font-weight: bold; font-size: 10px; color: #FF6B17; letter-spacing:0.05em; position: relative; top:-20px; left:140px; width:19px;}
+        #resume .tool-container {width: 200px; float: left;}
+        #resume .tool-container .tool p {font-size: 14px; margin-bottom: 8px;}
       </style>
     </head>
     <body>
@@ -53,6 +74,56 @@
           <li class="about"><a href="https://mskimsj.github.io/soojin/about">About</a></li>
         </ul>
       </nav>
+      <header id="profile">
+          <div class="profile-container">
+              <div class="image"></div>
+                  <p class="name">SOOJIN KIM</p>
+                  <p class="job">Product Designer</p>
+              </div>
+          </div>
+      </header>
+      <section id="resume">
+          <div class="resume-container">
+              <div class="learn-container">
+                  <p class="title">Learn</p>
+                <div class="learn-1">
+                     <p class="univ">KyungHee Univ.<br>Visual Design</p>
+                     <p class="term">2014-2019</p>
+                    </div>
+                    <div class="learn-2">
+                        <p class="fast">Fast Campus<br>GUI Design basic</p>
+                        <p class="term">2017.06-2017.07</p>
+                       </div>
+                    <div class="learn-3">
+                        <p class="kosta">Kosta<br>UX Design Course</p>
+                        <p class="term">2018.12-2019.02</p>
+                       </div>
+              </div>
+              <div class="work-container">
+                  <p class="title">Work</p>
+                  <div class="work-1">
+                      <p class="whatshoe">Whatshoe<br>Product Designer</p>
+                      <p class="term">2017.02.01-2017.05.31</p>
+                  </div>
+                  <div class="work-2">
+                      <p class="coinone">Coinone<br>Product Designer</p>
+                      <p class="mark">Now</p>
+                      <p class="term">2019.04.03-</p>
+                  </div>
+              </div>
+              <div class="tool-container">
+                  <p class="title">Tool</p>
+                  <div class="tool">
+                  <p>Sketch</p>
+                  <p>Figma</p>
+                  <p>Zeplin</p>
+                  <p>Jira</p>
+                  <p>Confluence</p>
+                  <p>Slack</p>
+                </div>
+              </div>
+          </div>
+      </section>
     </body>
   </html>
  
