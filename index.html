@@ -3,122 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>soojin.portfolio</title>
+    <title>welcome!</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        font-family: IBM plex mono;
-        font-weight: normal;
-        width: 85%;
-        margin: 0 auto;
-      }
-      a {
-        text-decoration-line: none;
-        color: black;
-      }
-      #nav {
-        position: relative;
-        top: 0px;
-        left: auto;
-        width: 85%;
-        height: 96px;
-        margin: 0 auto;
-      }
-      #topmenu {
-        float: left;
-        position: absolute;
-        top: 0px;
-        left: -16px;
-        margin: 0 auto;
-      }
-      #topmenu li {
-        width: 64px;
-        font-size: 0.8rem;
-        list-style: none;
-        text-align: center;
-        padding-left: 0px;
-        padding-right: 8px;
-        margin-right: 12px;
-        float: left;
-        line-height: 96px;
-      }
-      #topmenu li:hover {
-        font-weight: bold;
-        text-decoration: underline;
-      }
-      #topmenu li: {
-        font-weight: bold;
-        text-decoration: underline;
-      }
-      section#main {
-        position: relative;
-        top: 50%;
-        left: auto;
-        width: 85%;
-        height: 320px;
-        margin: 0 auto;
-      }
-      #main {
-        position: relative;
-        top: 96px;
-        left: 0px;
-        width: 85%;
-        height: 320px;
-      }
-      #main .title {
-        font-weight: 500;
-        position: absolute;
-        top: 50%;
-        left: 0px;
-        line-height: 0;
-        font-size: 1.5rem;
-      }
-      #main div {
-        position: absolute;
-        top: 50%;
-        left: 0px;
-      }
-      section#proj {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        width: 85%;
-        height: 680px;
-        margin: 0 auto;
-      }
-      #proj .title {
-        padding: 24px 0;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-      }
-      #proj .title p {
-        color: black;
-        margin: 0px;
-        font-size: 0.8em;
-      }
-      #proj .title span {
-        color: rgba(0, 0, 0, 0.5);
-      }
+        * {margin:0px; padding:0px; font-family: IBM plex mono;}
+        a {text-decoration: none; color: black;}
+        #gnb {width: 85%; height: 96px; border: 1px solid; margin: 0 auto; font-size: 1em;}
+        #gnb .gnb-container {float: left; border:1px solid;}
+        #gnb ul {list-style: none;}
+        #gnb ul li {float: left; margin-right: 40px; border: 1px solid; line-height: 92px;}
+        #brief {width: 85%; height: 320px; border: 1px solid; margin:0 auto;}
+        #brief .brief-container {position: relative; top:40%; left:0px;}
+        #brief .title {font-size: 1.5em; border: 1px solid; font-weight: 600; width: 60%;}
+        #brief .sub {font-size: 1em; border: 1px solid; color: rgba(0, 0, 0, .5);margin-top: 12px; width: 40%;}
+        #project {width:85%;border: 1px solid; margin: 0 auto;}
+        #project .title  {font-size: 1em;border: 1px solid; margin: 24px 0px;}
+        #project .project-container {width: 100%; border: 1px solid; margin: 0 auto; float: left;}
+        #project .proj-1-container,.proj-2-container,.proj-3-container,.proj-4-container,.proj-5-container {border: 1px solid; width: 307px; float: left; margin-right: 17px;}
+        #project .proj-1 {width: 307px; height: 227px; border: 1px solid; margin-right: 17px;}
+        #project .proj-2 {width: 307px; height: 227px; border: 1px solid; margin-right: 17px;}
+        #project .proj-3 {width: 307px; height: 227px; border: 1px solid; margin-right: 17px;}
+        #project .proj-4 {width: 307px; height: 227px; border: 1px solid; margin-right: 17px;}
+        #project .proj-5 {width: 307px; height: 227px; border: 1px solid; margin-right: 17px;}
+        #project p {text-align: center; font-size: 14px; margin-top: 12px; margin-bottom: 24px;}
     </style>
   </head>
   <body>
-    <nav id="nav">
-      <ul id="topmenu">
+    <nav id="gnb">
+      <ul class="gnb-container">
         <li><a href="#">Home</a></li>
-        <li><a href="https://mskimsj.github.io/soojin/project">Project</a></li>
+        <li><a href="#">Project</a></li>
         <li><a href="#">About</a></li>
       </ul>
     </nav>
-    <section id="main">
-      <div>
-        <p class="title">portfolio</p>
-      </div>
-    </section>
-    <section id="proj">
-      <div class="title">
-        <p>Projects <span>from 2018-2020.</span></p>
+    <header id="brief">
+        <div class="brief-container">
+      <p class="title">1st year portfolio.</p>
+      <p class="sub">blablablablablablablablablablablabla</p>
+    </div>
+    </header>
+    <section id="project">
+      <div class="title">Projects</div>
+      <div class="project-container">
+        <div class="proj-1-container">
+        <a href="#"><article class="proj-1"></article></a>
+        <p>Coinone Pro</p>
+        </article>
+        </div>
+        <div class="proj-2-container">
+        <a href="#"><article class="proj-2"></article></a>
+        <p>Coinone Plus app</p>
+        </article>
+        </div>
+        <div class="proj-3-container">
+        <a href="#"><article class="proj-3"></article></a>
+        <p>Memory-al</p>
+        </article>
+        </div>
+        <div class="proj-4-container">
+        <a href="#"><article class="proj-4"></article></a>
+        <p>First step</p>
+        </article>
+        </div>
+        <div class="proj-5-container">
+        <a href="#"><article class="proj-5"></article></a>
+        <p>Triple</p>
+        </article>
+        </div>
       </div>
     </section>
   </body>
